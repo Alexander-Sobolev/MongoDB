@@ -1,7 +1,5 @@
 const { MongoClient } = require('mongodb');
-
 const URL = 'mongodb://localhost:27017/movibox';
-
 let dbConnection;
 
 module.exports = {
